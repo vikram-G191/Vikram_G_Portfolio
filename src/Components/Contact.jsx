@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
-import { FaGithub, FaLinkedin, FaEnvelope, FaPhone, FaMapMarkerAlt } from 'react-icons/fa';
-// import PhoneImage from '../assets/phone.png'; // replace with correct path
+import { FaGithub, FaLinkedin, FaEnvelope, FaPhone, FaMapMarkerAlt, FaDownload } from 'react-icons/fa';
+// import PhoneImage from '../assets/phone.png'; // Optional mirrored image
 
 const Contact = () => {
   return (
@@ -14,7 +14,7 @@ const Contact = () => {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
       >
-        {/* 📱 Mirrored Phone Image */}
+        {/* 📱 Optional Phone Image */}
         {/* <motion.img
           src={PhoneImage}
           alt="Phone"
@@ -27,8 +27,9 @@ const Contact = () => {
         {/* 🧊 Contact Info Card */}
         <div className="bg-white/30 backdrop-blur-md p-8 rounded-2xl shadow-2xl w-full md:max-w-xl">
           <h2 className="text-4xl font-bold text-gray-800 mb-4 text-center">Contact Me</h2>
+
           <p className="text-gray-600 mb-8 text-center">
-            {/* Let’s work together or just say hi 👋 */}
+            Feel free to reach out for collaboration or just to say hello! 👋
           </p>
 
           <div className="space-y-5 text-gray-700">
@@ -46,11 +47,48 @@ const Contact = () => {
             </div>
           </div>
 
+          {/* 🌐 Social Links */}
           <div className="mt-8 flex justify-center gap-6 text-2xl text-indigo-700">
-            <a href="https://github.com/vikram-G191" target="_blank" rel="noreferrer" className="hover:text-indigo-900"><FaGithub /></a>
-            <a href="https://www.linkedin.com/in/vikram-g01/" target="_blank" rel="noreferrer" className="hover:text-indigo-900"><FaLinkedin /></a>
-            <a href="mailto:vikramganesan111@gmail.com" className="hover:text-indigo-900"><FaEnvelope /></a>
+            <a
+              href="https://github.com/vikram-G191"
+              target="_blank"
+              rel="noreferrer"
+              className="hover:text-indigo-900"
+            >
+              <FaGithub />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/vikram-g01/"
+              target="_blank"
+              rel="noreferrer"
+              className="hover:text-indigo-900"
+            >
+              <FaLinkedin />
+            </a>
+            <a
+              href="mailto:vikramganesan111@gmail.com"
+              className="hover:text-indigo-900"
+            >
+              <FaEnvelope />
+            </a>
           </div>
+
+          {/* 📄 Resume Download Button */}
+          <motion.div
+            className="mt-10 flex justify-center"
+            initial={{ opacity: 0, scale: 0.95 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.5 }}
+          >
+            <a
+              href="/VikramG_Resume.pdf"
+              download
+              className="flex items-center gap-2 bg-indigo-600 text-white px-6 py-3 rounded-full shadow-lg hover:bg-indigo-700 transition duration-300"
+            >
+              <FaDownload />
+              Download My Resume
+            </a>
+          </motion.div>
         </div>
       </motion.div>
     </section>

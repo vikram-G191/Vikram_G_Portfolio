@@ -29,7 +29,7 @@ const Contact = () => {
           <h2 className="text-4xl font-bold text-gray-800 mb-4 text-center">Contact Me</h2>
 
           <p className="text-gray-600 mb-8 text-center">
-            Feel free to reach out for collaboration or just to say hello! 👋
+            {/* Feel free to reach out for collaboration or just to say hello! 👋 */}
           </p>
 
           <div className="space-y-5 text-gray-700">

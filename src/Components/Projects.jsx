@@ -35,7 +35,7 @@ const Projects = () => {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
       >
-      Projects
+        Projects
       </motion.h2>
 
       <div className="max-w-6xl mx-auto grid sm:grid-cols-2 md:grid-cols-3 gap-10">

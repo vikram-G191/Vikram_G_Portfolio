@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { FaGithub, FaLinkedin, FaEnvelope, FaPhone, FaMapMarkerAlt, FaDownload } from 'react-icons/fa';
-// import PhoneImage from '../assets/phone.png'; // Optional mirrored image
+
 
 const Contact = () => {
   return (
@@ -14,16 +14,6 @@ const Contact = () => {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
       >
-        {/* 📱 Optional Phone Image */}
-        {/* <motion.img
-          src={PhoneImage}
-          alt="Phone"
-          className="w-64 md:w-80 transform -scale-x-100 drop-shadow-xl"
-          initial={{ x: -50, opacity: 0 }}
-          whileInView={{ x: 0, opacity: 1 }}
-          transition={{ duration: 0.6 }}
-        /> */}
-
         {/* 🧊 Contact Info Card */}
         <div className="bg-white/30 backdrop-blur-md p-8 rounded-2xl shadow-2xl w-full md:max-w-xl">
           <h2 className="text-4xl font-bold text-gray-800 mb-4 text-center">Contact Me</h2>

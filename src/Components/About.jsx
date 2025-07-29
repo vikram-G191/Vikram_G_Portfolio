@@ -5,7 +5,6 @@ const About = () => {
   return (
     <section id="about" className="min-h-screen  bg-gradient-to-b from-white to-blue-100 flex items-center justify-center py-4 px-6">
       <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
-        {/* Profile Image */}
         <motion.img
           src="../assets/avatar.png" // replace with your image path
           alt="Profile"
@@ -14,8 +13,6 @@ const About = () => {
           whileInView={{ x: 0, opacity: 1 }}
           transition={{ duration: 0.8 }}
         />
-
-        {/* Text Content */}
         <motion.div
           className="text-center md:text-left"
           initial={{ x: -100, opacity: 0 }}

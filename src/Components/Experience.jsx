@@ -1,4 +1,3 @@
-// components/WorkExperience.js
 import { motion } from "framer-motion";
 
 const Experience = () => {

@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { IoMdMenu } from "react-icons/io";
 import { IoCloseCircleOutline } from "react-icons/io5";
-// Optional: Install lucide-react or use your own icons
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);

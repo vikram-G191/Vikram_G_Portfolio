@@ -36,7 +36,7 @@ const About = () => {
           </p>
 
           <p className="text-lg text-gray-600 leading-relaxed">
-            I'm always eager to explore new technologies and improve my skills. Outside of coding, I enjoy diving into UI design, reading tech blogs, and discovering new places.
+            I'm always eager to explore new technologie and improve my skills. Outside of coding, I enjoy diving into UI design, reading tech blogs, and discovering new places.
           </p>
         </motion.div>
       </div>

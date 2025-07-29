@@ -13,7 +13,8 @@ const projects = [
     description: 'Built a cross-platform bus booking mobile app with React Native for booking and managing bus tickets. Integrated features like lazy loading, OTP-based login, and push notifications.',
     image: '../assets/mobile.png',
     demoLink: '',
-    iosLink: 'https://apps.apple.com/app/id1234567890',
+    // iosLink: 'https://apps.apple.com/app/id1234567890',
+    iosLink: 'https://apps.apple.com/in/app/the-bus-stand-bus-booking-app/id6745876457',
     AndLink: 'https://play.google.com/store/apps/details?id=com.thebusstandapp&hl=en',
     codeLink: '#'
   },

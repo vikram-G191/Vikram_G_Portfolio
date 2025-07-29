@@ -8,7 +8,7 @@ import About from './Components/About'
 import Skills from './Components/skills'
 import Projects from './Components/Projects'
 import Contact from './Components/Contact'
-import Experience from './Components/Experience.jsx'
+import Experience from './Components/Experience'
 
 function App() {
   const [count, setCount] = useState(0)

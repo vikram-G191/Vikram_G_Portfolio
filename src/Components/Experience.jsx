@@ -32,7 +32,7 @@ const Experience = () => {
 
           <ul className="mt-4 list-disc list-inside text-gray-700 space-y-2">
             <li>
-              Built and maintained customer-facing web and mobile apps using <span className="font-medium text-gray-900">React.js</span> and <span className="font-medium text-gray-900">React Native</span>.
+              Built and maintained customer facing web and mobile apps using <span className="font-medium text-gray-900">React.js</span> and <span className="font-medium text-gray-900">React Native</span>.
             </li>
             <li>
               Developed <span className="font-medium text-gray-900">internal admin tools and dashboards</span> to manage bookings, users, and analytics.

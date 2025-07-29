@@ -32,7 +32,7 @@ const Navbar = () => {
         {/* Desktop menu */}
         <div>
         <ul className="hidden md:flex space-x-6 font-semibold text-gray-800 text-sm sm:text-base">
-          {["home", "about", "skills", "projects", "contact"].map((item) => (
+          {["home", "about", "skills", "experience", "projects", "contact"].map((item) => (
             <li key={item}>
               <button
                 onClick={() => scrollToSection(item)}
@@ -60,7 +60,7 @@ const Navbar = () => {
       {menuOpen && (
         <div className="md:hidden w-full bg-white border-t border-gray-200 shadow-md">
           <ul className="flex flex-col px-[5vw] py-4 space-y-4 font-medium text-gray-700">
-            {["home", "about", "skills", "projects", "contact"].map((item) => (
+            {["home", "about", "skills", "experience", "projects", "contact"].map((item) => (
               <li key={item}>
                 <button
                   onClick={() => scrollToSection(item)}

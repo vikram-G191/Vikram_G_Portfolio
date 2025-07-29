@@ -8,6 +8,7 @@ import About from './Components/About'
 import Skills from './Components/skills'
 import Projects from './Components/Projects'
 import Contact from './Components/Contact'
+import Experience from './Components/Experience.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,6 +20,7 @@ function App() {
   <section id='home'><Hero/></section>
   <section id='about'><About/></section>
   <section id='skills'><Skills/></section>
+  <section id='Experience'><Experience/></section>
   <section id='projects'><Projects/></section>
   <section id='contact'><Contact/></section>
   </div>

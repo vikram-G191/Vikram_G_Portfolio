@@ -6,7 +6,7 @@ const About = () => {
     <section id="about" className="min-h-screen  bg-gradient-to-b from-white to-blue-100 flex items-center justify-center py-4 px-6">
       <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
         <motion.img
-          src="../assets/avatar.png" // replace with your image path
+          src="../assets/avatar.png" 
           alt="Profile"
           className="rounded-xl w-full max-w-sm mx-auto shadow-lg"
           initial={{ x: -100, opacity: 0 }}
